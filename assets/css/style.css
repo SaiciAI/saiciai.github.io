@@ -423,12 +423,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 130px 0 0 0;
+  margin: 0;
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
   color: #124265;
   font-family: "Poppins", sans-serif;
+}
+
+#hero h1.slogan {
+  margin: 130px 0 0 0;
 }
 
 #hero h2 {
@@ -453,10 +457,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started:hover {
   background: #3194db;
-}
-
-#hero .icon-boxes {
-  margin-top: 100px;
 }
 
 #hero .icon-box {
