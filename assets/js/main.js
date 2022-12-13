@@ -13,6 +13,15 @@
       $('#preloader').delay(100).fadeOut('slow', function() {
         $(this).remove();
       });
+
+      var f = document.createElement('iframe');
+      f.src = "https://www.google.com/maps/embed/v1/place?key=AIzaSyBtyUte5kzx7EJIWSF7ajiCg5bp41rc1Iw&q=Building+A,+Jiafa+Mansion";
+      f.border = 0;
+      f.width = "100%"; 
+      f.height = "270px";
+      f.allowFullscreen = true;
+      f.frameBorder = 0;
+      $('#map-iframe').append(f);
     }
   });
 

@@ -14,7 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/css/fonts.css" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,12 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#portfolio">Services</a></li>
+          <li class="drop-down"><a href="#portfolio">Products</a>
+            <ul>
+              <li><a href="#products-demographics">Shopper Insights</a></li>
+              <li><a href="#products-reviews">Reviews Analysis</a></li>
+            </ul>
+          </li>
           <li><a href="#team">Team</a></li>
           <li class="drop-down"><a href="">中 | EN</a>
             <ul>
@@ -74,7 +79,7 @@
         <div class="col-xl-7 col-lg-9 text-center">
           <h1 class="slogan d-none d-sm-block">Creative Intelligence for Consuming Experience</h1>
           <h1 class="d-block d-sm-none">Creative Intelligence for Consuming Experience</h1>
-          <h2>Monitor how consumers perceive your brand or instituition</h2>
+          <h2>Discover and focus on your most valuable customers</h2>
         </div>
       </div>
       <div class="text-center">
@@ -85,16 +90,16 @@
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="ri-stack-line"></i></div>
-            <h4 class="title"><a href="">All social media in one place</a></h4>
-            <p class="description">Gather feedback about your products from prominent social media sites into one place</p>
+            <h4 class="title"><a href="">Know who your customers are</a></h4>
+            <p class="description">Gather insights about your customers' demographics</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><i class="ri-palette-line"></i></div>
-            <h4 class="title"><a href="">Insights in categories</a></h4>
-            <p class="description">Group feedback into categories to have a multi-faceted understanding of consumers' perception </p>
+            <h4 class="title"><a href="">Identify ideal customers</a></h4>
+            <p class="description">Discover high-intent customers and the best channel to reach them </p>
           </div>
         </div>
 
@@ -102,15 +107,15 @@
           <div class="icon-box">
             <div class="icon"><i class="ri-command-line"></i></div>
             <h4 class="title"><a href="">See the trends</a></h4>
-            <p class="description">As the time changes, how do consumers react differently to your market campagins?</p>
+            <p class="description">As the time goes, how do customers react differently to your market campagins?</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
           <div class="icon-box">
             <div class="icon"><i class="ri-fingerprint-line"></i></div>
-            <h4 class="title"><a href="">Pick the right channel</a></h4>
-            <p class="description">We identify the right KOL/KOC for the right messages to be sent to your desired target audience</p>
+            <h4 class="title"><a href="">Integration with your existing tools</a></h4>
+            <p class="description">Integration with your e-commerce and marketing solutions gives your team a central reference to the pipeline</p>
           </div>
         </div>
 
@@ -124,88 +129,35 @@
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
+        <div class="section-title" id="products-demographics">
+          <h2>Products</h2>
+          <p>Shopper Insights</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8 col-md-8 offset-md-2">
+            <img src="assets/img/demographics_overview.png" class="img-fluid" alt="">
+          </div>
+        </div>
+
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Our product currently provides insights in a variety of industries, including retail & consumer and higher education.</p>
+          <p>Highlight & segment customers based on criteria</p>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="150">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-retail">FMCG</li>
-              <li data-filter=".filter-edu">Education</li>
-            </ul>
+        <div class="row">
+          <div class="col-lg-8 col-md-8 offset-md-2">
+            <img src="assets/img/demographics_breakdown.png" class="img-fluid" alt="">
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
+        <div class="section-title" id="products-reviews">
+          <p>Category wide Amazon Reviews Analysis(reviews from all products in one category) </p>
+        </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-retail">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/influencer.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>KOL Analysis</h4>
-                <p>Influencers</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/demo-kol.png" data-gall="portfolioGallery" class="venobox" title="influencer"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-lg-8 col-md-8 offset-md-2">
+            <img src="assets/img/reviews_analysis.png" class="img-fluid" alt="">
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-retail">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/wine.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Wines</h4>
-                <p>Wines</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/demo-wines.png" data-gall="portfolioGallery" class="venobox" title="Wines"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-retail">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/probiotics.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Probiotics</h4>
-                <p>Probiotics</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/demo-probiotics.png" data-gall="portfolioGallery" class="venobox" title="Probiotics"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-edu">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/university.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Universities</h4>
-                <p>Universities</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/demo-education.png" data-gall="portfolioGallery" class="venobox" title="Higher Education"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-retail">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/oat-milk.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Oat Milk</h4>
-                <p>Oat Milk</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/demo-oat-milk.png" data-gall="portfolioGallery" class="venobox" title="Oat Milk"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
 
       </div>
@@ -280,8 +232,8 @@
           <h2>Contact</h2>
         </div>
 
-        <div>
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJS_2vjSBlsjURleF_HEZ0DSI&key=AIzaSyBtyUte5kzx7EJIWSF7ajiCg5bp41rc1Iw" frameborder="0" allowfullscreen></iframe>
+        <div id="map-iframe">
+          <!-- <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBtyUte5kzx7EJIWSF7ajiCg5bp41rc1Iw&q=Building+A,+Jiafa+Mansion" frameborder="0" allowfullscreen></iframe> -->
         </div>
 
         <div class="row mt-5">
@@ -291,7 +243,7 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>Floor 5th, 450 Yishan Road, Xuhui District, Shanghai, China 200235</p>
+                <p>5G, Building A Jiafa Mansion, 129 Datian Road, Shanghai, China 200041</p>
               </div>
 
               <div class="email">
@@ -358,8 +310,8 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>SaiciAI</h3>
             <p>
-              Floor 5th, 450 Yishan Road<br>
-              Shanghai, China 200235<br>
+              5G, Building A Jiafa Mansion, 129 Datian Road<br>
+              Shanghai, China 200041<br>
               <strong>Phone:</strong> +86 173 2105 8054<br>
               <strong>Email:</strong> hello@saiciai.com<br>
             </p>

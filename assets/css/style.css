@@ -453,6 +453,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
   color: #fff;
   background: #2487ce;
+  margin-bottom: 30px;
 }
 
 #hero .btn-get-started:hover {
@@ -551,6 +552,7 @@ section {
 }
 
 .section-title p {
+  margin-top: 20px;
   margin-bottom: 0;
   font-size: 14px;
   color: #919191;
